@@ -1,0 +1,24 @@
+PODS:
+  - ListPreload (1.0.0):
+    - MJRefresh
+  - MJRefresh (3.7.5)
+
+DEPENDENCIES:
+  - ListPreload (from `../`)
+  - MJRefresh
+
+SPEC REPOS:
+  trunk:
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  ListPreload:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ListPreload: d28f731cfc9716289c7d34f65dffb46cb85d2a11
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+
+PODFILE CHECKSUM: c4f05779f64dd998034b31c76ec2beb143c4f833
+
+COCOAPODS: 1.11.3

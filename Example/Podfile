@@ -1,0 +1,15 @@
+platform :ios, '10.0'
+
+target 'ListPreload_Example' do
+  
+  pod 'ListPreload', :path => '../'
+  
+  pod 'MJRefresh', :modular_headers => true
+  
+  
+  target 'ListPreload_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
