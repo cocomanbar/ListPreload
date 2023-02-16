@@ -13,9 +13,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'cocomanbar' => '125322078@qq.com' }
   s.source           = { :git => 'https://github.com/cocomanbar/ListPreload.git', :tag => s.version.to_s }
 
-  s.static_framework = true
   s.ios.deployment_target = '10.0'
-
   s.source_files = 'ListPreload/Classes/**/*'
   
   s.frameworks = 'UIKit'

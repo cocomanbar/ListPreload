@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ListPreLoadObjcer.h"
 
 FOUNDATION_EXPORT double ListPreloadVersionNumber;
 FOUNDATION_EXPORT const unsigned char ListPreloadVersionString[];

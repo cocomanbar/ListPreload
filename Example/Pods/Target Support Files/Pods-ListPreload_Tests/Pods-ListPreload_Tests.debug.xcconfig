@@ -1,6 +1,6 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/MJRefresh"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ListPreload" "${PODS_ROOT}/Headers/Public/MJRefresh"
 OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/ListPreload/ListPreload.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/MJRefresh/MJRefresh.modulemap"
 OTHER_LDFLAGS = $(inherited) -framework "UIKit"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/ListPreload/ListPreload.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/MJRefresh/MJRefresh.modulemap"

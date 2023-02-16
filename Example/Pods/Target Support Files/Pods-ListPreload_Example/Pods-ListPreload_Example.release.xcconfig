@@ -1,7 +1,7 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/MJRefresh"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ListPreload" "${PODS_ROOT}/Headers/Public/MJRefresh"
 LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" "${PODS_CONFIGURATION_BUILD_DIR}/ListPreload" "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh" /usr/lib/swift
 OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/ListPreload/ListPreload.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/MJRefresh/MJRefresh.modulemap"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"ListPreload" -l"MJRefresh" -framework "UIKit"
